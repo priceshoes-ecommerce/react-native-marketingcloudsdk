@@ -41,5 +41,6 @@ repositories {
 dependencies {
     api "com.facebook.react:react-native:${safeExtGet('reactNativeVersion', '+')}"
     api "com.salesforce.marketingcloud:marketingcloudsdk:${safeExtGet('marketingCloudVersion', '8.1.+')}"
+    api "androidx.work:work-runtime:2.7.0"
     testImplementation 'junit:junit:4.12'
 }

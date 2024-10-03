@@ -306,6 +306,8 @@ public class RNSFMCSdkModule extends ReactContextBaseJavaModule {
     }
 
     private void handlePushAction(final MCPushAction action) {
+
+
         SFMCSdk.requestSdk(new SFMCSdkReadyListener() {
             @Override
             public void ready(@NonNull SFMCSdk sfmcSdk) {
